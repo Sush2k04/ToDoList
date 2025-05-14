@@ -29,7 +29,6 @@ html, body {
     padding: 2%;
 }
 
-/* Heading at top */
 .heading {
     border-radius: 20px 20px 0 0;
     background-color: #7855ED;
@@ -42,7 +41,6 @@ html, body {
     color: white;
 }
 
-/* Box holds form + list */
 .box {
     width: 100%;
     flex: 1;
@@ -56,21 +54,18 @@ html, body {
     border-top:none;
 }
 
-/* Form container */
 .box-inside {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
 }
 
-/* Actual form layout */
 .form {
     display: flex;
     gap: 10px;
     width: 100%;
 }
 
-/* Input field */
 .inp {
     flex: 1;
     padding: 10px;
@@ -79,7 +74,6 @@ html, body {
     border-radius: 5px;
 }
 
-/* Button */
 .btn {
     padding: 10px 15px;
     font-size: 1rem;
@@ -97,7 +91,6 @@ html, body {
     background-color: #7855ED;
     color:white;
 }
-/* List area */
 .List {
     flex: 1;
     overflow-y: auto;
@@ -106,7 +99,6 @@ html, body {
     padding: 10px;
 }
 
-/* List items */
 ul#list {
     list-style-type: none;
 }
